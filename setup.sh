@@ -1,4 +1,3 @@
-import os
 # System Required Packages
 
 # xterm
@@ -13,3 +12,4 @@ import os
 #
 #
 #
+pacman -S hcxtools xterm pixiewps bully mdk4 aircrack-ng hashcat hostapd --no-confirm &>/dev/null
