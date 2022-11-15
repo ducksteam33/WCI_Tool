@@ -1,2 +1,15 @@
 import os
-print("Hello World")
+# System Required Packages
+
+# xterm
+# aircrack-ng
+# python
+# apache
+# hostapd
+# wireshark
+
+# Python Required Packages
+
+#
+#
+#
