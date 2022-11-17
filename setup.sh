@@ -15,5 +15,6 @@ mkdir /opt/wci \
 			/opt/wci/cache \
 			/opt/wci/main \
 			/opt/wci/main/captures \
+			/opt/wci/main/files \
 			/opt/wci/main/templates 2>/dev/null
 sleep 0.4
