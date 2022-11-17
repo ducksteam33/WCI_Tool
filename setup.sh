@@ -9,12 +9,24 @@
 # hostapd
 
 
-pacman -S hcxtools xterm mdk4 aircrack-ng hashcat hostapd apache --no-confirm &>/dev/null
+pacman -S xterm aircrack-ng hostapd apache --no-confirm &>/dev/null
 
 mkdir /opt/wci \
-			/opt/wci/cache \
-			/opt/wci/main \
-			/opt/wci/main/captures \
-			/opt/wci/main/files \
-			/opt/wci/main/templates 2>/dev/null
-sleep 0.4
+			/opt/wci/main  \
+			/opt/wci/cache  \
+			/opt/wci/main/captures  \ 
+			/srv/http/wciPage 2>/dev/null
+sleep 0.5
+
+
+rm /etc/httpd/conf/httpd.conf
+rm /etc/httpd/conf/extra/httpd-vhosts.conf
+
+sleep 0.5
+cp ./WCI/source/confFiles/httpd.conf /etc/httpd/conf/
+cp ./WCI/source/confFiles/httpd-vhosts.conf /etc/httpd/conf/extra
+cp -r ./WCI/source/confFiles/templates /opt/wci/main/
+cp -r ./WCI/source /opt/wci/main
+sleep 0.5
+
+rename '/opt/wci/main/source' files source
