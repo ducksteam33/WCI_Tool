@@ -4,3 +4,6 @@ Requirements:
 <br>	# python
 <br>	# apache
 <br>	# hostapd
+
+
+just cd into /
