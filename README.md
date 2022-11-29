@@ -6,4 +6,4 @@ Requirements:
 <br>	# hostapd
 
 
-just cd into /
+Just cd into /source and type: sudo ./wci -i wlan1 [or write instead your network card]
