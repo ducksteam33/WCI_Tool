@@ -15,8 +15,8 @@ cp -r ./source  /opt/wci/main
 cp -r ./source/confFiles/templates  /opt/wci/main/source
 
 
-#pacman -S xterm aircrack-ng hostapd apache --noconfirm #&>/dev/null
-set PYTHONPATH=/opt/wci/main/source
+pacman -S xterm aircrack-ng hostapd apache --noconfirm #&>/dev/null
+
 
 
 echo Done! Now you just can type 'wci -h' to get started!
