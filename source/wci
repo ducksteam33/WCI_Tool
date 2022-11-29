@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+import os
+import click
+import wci_main_tool as tl
+#from WCI.source import wci_main_tool as tl
+
+@click.command()
+@click.option("--interface","-i",type=str,help="Wlan card used with the tool(monitor mode option is required!)")
+
+def main(interface):
+    interface = tl.tool(interface)
+
+def start():
+    try:
+        if not os.environ.get("SUDO_UID"):
+            click.echo("You need to run this command as \33[31mroot\33[37m!")
+            quit()
+        else:
+            main()     
+    except IndexError:
+        click.echo("ERROR: Check that the selected card exists.")
+
+
+start()
