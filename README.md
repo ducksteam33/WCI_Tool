@@ -9,6 +9,7 @@
   <p>- python</p>
   <p>- apache</p>
   <p>- hostapd</p>
+  <p>- wireshark_cli</p>
   <br><p>To setup the tool use sudo ./setup.sh, it will also install or update the required packages.</p>
   
   <h4>!!!Attention!!!</h4> Useing the Tool will override your apache httpd.conf and httpd-vhosts.conf files! In case you dont have a apache http Server running, then   you dont have nothing to worry about.)
