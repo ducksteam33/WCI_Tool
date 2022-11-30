@@ -14,5 +14,6 @@ Then cd into /source and type: <br>
 sudo ./wci -i wlan1 [or write instead your network card]
 <br>To use the tool.
 
+<br>You can develop your own phishing Page and place it in the templates folder. Just make shure to name the main page index.html.
 
 This tool was developed in Arch linux, im currently working on making it available for debian based distros.
