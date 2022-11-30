@@ -17,10 +17,9 @@
   
 
 
-  To use, cd into /source and type: <br>
+  To use the Tool, cd into /source and type: <br>
 
   <h5>sudo ./wci -i [network card], for Example: sudo ./wci -i wlan1</h5>
-  <br>To use the tool.
 
   <br>You can develop your own phishing Page and place it in the templates folder. Just make shure to name the main page index.html.
 
