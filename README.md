@@ -2,7 +2,7 @@
 <body>
   <h1>WCI (Wifi Cracking Interface)</h1> 
 
-  <h3><b><i>I am not responsible for the bans or problems this tool may cause.</i></b> </h3>
+  <h3><b><i>I am not responsible for the problems this tool may cause.</i></b> </h3>
   <h4>Requirements:</h4>
   <p>- xterm</p>
   <p>- aircrack-ng</p>
