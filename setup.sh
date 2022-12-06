@@ -15,7 +15,7 @@ cp -r ./source  /opt/wci/main
 cp -r ./source/confFiles/templates  /opt/wci/main/source
 
 
-pacman -S xterm aircrack-ng hostapd apache python python-pip dnsmasq --noconfirm #&>/dev/null
+pacman -S xterm aircrack-ng hostapd apache python python-pip dnsmasq wireshark-cli wireshark-qt --noconfirm #&>/dev/null
 pip install click
 
 clear
